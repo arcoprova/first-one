@@ -1,0 +1,32 @@
+-- ftd.column:
+padding: 50
+spacing: 50
+
+-- new-container:
+name: Arco
+age: 24
+college: JIS College of Engineering
+
+-- new-container:
+name: Dona
+age: 21
+college: BC ROY College of Engineering
+
+-- ftd.column new-container: 
+string name:
+integer age:
+string college:
+border-width: 2
+padding: 50 
+
+--- ftd.row:
+id: row-id
+
+--- ftd.text: $name
+padding-right: 20
+
+--- ftd.integer: $age
+
+--- container: ftd.main
+
+--- ftd.text: $college

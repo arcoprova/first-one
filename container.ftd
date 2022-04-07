@@ -1,0 +1,24 @@
+-- ftd.column:
+padding: 150
+id: col-1
+
+-- ftd.text:  Hey buddies, I am new on FTD
+
+-- ftd.integer: 404
+
+-- ftd.column:
+padding: 200
+
+-- ftd.text: I have the age of 
+
+-- ftd.integer: 24
+
+-- container: col-1
+
+-- ftd.text: I am the most junior guy
+
+-- container: ftd.main
+
+-- ftd.text: Help me out!
+padding-left: 100
+

@@ -1,0 +1,17 @@
+-- ftd.text: Hey, you are on a new page
+
+-- arco-text:
+t: Hey, it's Arco!
+c: 100
+s: 100
+
+-- ftd.text arco-text:
+caption or body t:
+integer c:
+integer s:
+text: $t
+margin-left: $c
+padding-top: $s
+
+
+

@@ -1,1 +1,62 @@
--- ft.page: hello
+-- import: fpm
+
+
+
+
+
+
+-- ftd.row: 
+padding-top: 30
+padding-left: 100
+
+--- ftd.text: FifthTry
+padding-right: 800
+role: $fpm.type.title-large
+
+--- ftd.text: SAY GOODBYE TO DOCUMENTATION ROT
+border-width: 1
+padding: 10
+
+--- ftd.text: Sign in
+padding-left: 100
+
+
+
+
+
+
+
+
+
+-- ftd.column:
+padding-top: 100
+padding-left: 350
+
+--- ftd.text: ONE STOP SOLUTION TO ALL YOUR DOCUMENTATION PROBLEM
+width: 800
+role: $fpm.type.display-medium
+
+--- ftd.text: fifthtry is a documentation tool that integrates with Github Pull request, to ensure that no code goes live without updated documentation.
+padding-top: 50
+padding-left: 100
+width: 700
+role: $fpm.type.headline-small
+
+--- ftd.image: 
+src: $assets.files.top.png
+padding-top: 50
+padding-bottom: 50
+padding-left: 100
+
+
+
+
+
+
+
+/-- ftd.column page:
+width: fill
+max-width: 1100
+background-color: $fpm.color.background.base
+padding-vertical: 40
+padding-horizontal: 50

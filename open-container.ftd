@@ -1,0 +1,41 @@
+-- ftd.column:
+padding: 100
+
+-- open-container: This is the Title 
+end: The End
+
+--- ftd.text: Hi, it's Arco
+
+--- ftd.text: I am a pet lover
+
+--- ftd.row: 
+spacing: 40
+
+
+--- ftd.text: Vuku is my pet
+
+--- ftd.text: She is a bitch
+
+-- without-child:
+
+-- ftd.text: Sorry!
+
+-- ftd.column without-child:
+padding: 50
+
+-- ftd.column open-container:
+caption title:
+string end:
+padding: 50
+border-width: 2
+align: center
+append-at: col-id
+
+--- ftd.text: $title
+
+--- ftd.column: 
+id: col-id
+
+--- container: ftd.main
+
+--- ftd.text: $end
