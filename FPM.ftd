@@ -1,0 +1,8 @@
+-- import: fpm
+
+-- fpm.package: arcoprova.github.io/first-one
+zip: github.com/arcoprova/first-one/archive/refs/heads/main.zip
+
+
+
+-- fpm.auto-import: arcoprova.github.io/first-one/assets
